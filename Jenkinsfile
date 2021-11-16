@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven "maven3.8.1"
-        jdk "jdk16"
+        maven "maven3.8.3"
+        jdk "jdk_17"
     }
     stages {
         stage("Env Variables") {
